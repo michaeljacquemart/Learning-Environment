@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning-Environment
 
 ## Objectifs
@@ -11,3 +12,6 @@
 - Crée un fichier `index.html`
 - Convertis le dernier markdown réalisé précédemment dans le fichier `index.html`
 - Publie sur ton dépôt le fichier HTML
+=======
+# Learning-Environment
+>>>>>>> refs/remotes/origin/master
