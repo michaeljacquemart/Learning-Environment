@@ -1,1 +1,179 @@
+<p><a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes">&lt; Vers Acceuil</a>    ||    <a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md">Vers Impressions ></a></p>
 
+<h1 id="questcequelemarkdown">Qu'est-ce que le MARKDOWN ?</h1>
+
+<p>Le Markdown est un <strong>langage de balisage léger</strong>. Il offre une syntaxe facile à lire et à écrire.
+Il a été créé en 2004 par John Gruber et Aaron Swartz.</p>
+
+<p><strong>Mise en oeuvre</strong> <br />
+Le Markdown s'utilise avec différents langages de programmation : <em>Perl</em>, <em>PHP</em>, <em>Ruby</em>, <em>Java</em>, <em>Python</em>, C#<em>, etc. Il se termine par l'extension *.md</em> ou <em>.markdown</em>.</p>
+
+<p><strong>Utilisation</strong> <br />
+Le Markdown est très polyvalent, il permet de créer des listes, des tableaux, des liens, insérer des images, etc.
+Ci-dessous, différents exemple d'application du Markdown.</p>
+
+<p><strong>Trucs et astuces de ninja</strong> <br />
+:+1: Un unique caractère pour tous les dé-formater : l'anti-slash (ou backslash) ! " \ " <br />
+:metal: Un lien vers les emojis (car oui, tu peux en mettre P A R T O U T ! ) <a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Emoji Cheat List</a>  </p>
+
+<hr />
+
+<h1 id="lasyntaxe">La syntaxe</h1>
+
+<h3 id="miseenpage">Mise en page</h3>
+
+<p>| Syntaxe                                                    | Résultat                          |
+|------------------------------------------------------------|-----------------------------------|
+| *Italic*                                                 | <em>Italic</em>                          |
+| **Bold**                                               | <strong>Bold</strong>                          |
+| # Titre (Jusqu'à 6 tailles variable avec le nombre de #) | <h1>Titre</h1>                    |
+| - - -                                                     |    Crée une ligne                 |
+| \~Text barré\~                                             | ~Texte barré~                     |
+| > Citation                                                | <blockquote>Citation</blockquote> |
+| Double espace + Enter pour passer à la ligne suivante      |                                   |</p>
+
+<hr />
+
+<h3 id="tableaux">Tableaux</h3>
+
+<h6 id="syntaxe">Syntaxe</h6>
+
+<p>\| Un \| Exemple \| De \| Tableau \| <br />
+\|---\|---\|---\|---\| <br />
+\| 1 \| 2 \| 3 \| 4 \|  </p>
+
+<h6 id="rsultat">Résultat</h6>
+
+<p>| Un          |      Exemple  |  De    | Tableau  |
+|-------------|---------------|--------|----------|
+| 1           |  2            | 3      | 4        |  </p>
+
+<hr />
+
+<h3 id="liste">Liste</h3>
+
+<p><strong>Liste numérotée</strong> (1. texte)</p>
+
+<ol>
+<li>First item  </li>
+
+<li>Second item  </li>
+
+<li>Third item  </li>
+
+<li>Fourth item  </li>
+</ol>
+
+<p><strong>Liste numérotée avec indentation</strong> (1. texte + Tab)</p>
+
+<ol>
+<li>First item  </li>
+
+<li>Second item  </li>
+
+<li>Third item <br />
+
+
+<ol>
+<li>Indented item  </li>
+
+<li>Indented item  </li></ol>
+</li>
+
+<li>Fourth item  </li>
+</ol>
+
+<p><strong>Liste à puce</strong> (- texte)</p>
+
+<ul>
+<li>First item  </li>
+
+<li>Second item  </li>
+
+<li>Third item  </li>
+
+<li>Fourth item  </li>
+</ul>
+
+<p><strong>Liste à puce avec indentation</strong> (- texte + Tab)</p>
+
+<ul>
+<li>First item  </li>
+
+<li>Second item  </li>
+
+<li>Third item <br />
+
+
+<ul>
+<li>Indented item  </li>
+
+<li>Indented item  </li></ul>
+</li>
+
+<li>Fourth item  </li>
+</ul>
+
+<p><em>Remarque : Vous pouvez ajouter des images, des blocs de citation ou des liens à une liste imbriquée(= "indentée"), en plus du texte.</em></p>
+
+<hr />
+
+<h3 id="liens">Liens</h3>
+
+<p><strong>Un lien basique :</strong>
+[Nom que vous voulez donner au lien](url du lien "texte de l'infobulle")</p>
+
+<p><a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY" title="My new life">Cette vidéo va changer votre vie !</a></p>
+
+<p><strong>Une image en tant que lien :</strong>
+[!<a href="url vers l'image">Légende</a>](url vers une page)]</p>
+
+<p><a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY"><img src="https://img.fireden.net/v/thumb/1524/43/1524437519508s.jpg" alt="Link" /></a></p>
+
+<hr />
+
+<h3 id="images">Images</h3>
+
+<p><code>![texte si l'image ne charge pas ](URL de l'image )</code></p>
+
+<p>Exemple :</p>
+
+<p><img src="https://www.dhresource.com/200x200s/f2-albu-g7-M00-A9-B5-rBVaSluHTzCAVr8yAAh2bVrzHRo546.jpg/halloween-cat-octopus-costumes-funny-cute.jpg" alt="404 cat not found" />  </p>
+
+<p>Et ça fonctionne aussi avec des gifs :</p>
+
+<p><img src="https://media.giphy.com/media/WwMHQqMG0yirepFPP8/giphy.gif" alt="404 octopus not found" /></p>
+
+<hr />
+
+<h3 id="afficherducode">Afficher du code :</h3>
+
+<p>Pour afficher du code en format brut (non interpreté) :</p>
+
+<ul>
+<li><p>faire tab a chaque ligne de code</p></li>
+
+<li><p>quatre espaces avant chaque ligne de code</p></li>
+
+<li><p>utiliser trois bacticks avant votre bloc de code ( <code>`</code> )  :</p>
+
+<p><code>``` votre code ici```</code></p></li>
+</ul>
+
+<p>Vous pouvez même afficher les couleurs en ajoutant le nom du langage après les backticks :  </p>
+
+<pre><code>```js "votre code" ```
+</code></pre>
+
+<p>donnera :     </p>
+
+<pre><code class="js language-js">function myFunction() {
+  var x = "", i;
+  for (i=0; i&lt;5; i++) {
+    x = x + "The number is " + i + "&lt;br&gt;";
+  }
+  document.getElementById("demo").innerHTML = x;
+}
+</code></pre>
+
+<p><a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes">&lt; Vers Acceuil</a>    ||    <a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md">Vers Impressions ></a></p>
