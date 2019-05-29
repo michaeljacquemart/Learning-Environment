@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Jacquemart;Michael;;Mr.;
+FN:Michael Jacquemart
+ORG:Becode
+TITLE:Junior web developer
+PHOTO;MEDIATYPE=image/gif:photo_profil.jpg
+TEL;TYPE=work,voice;VALUE=uri:tel:0032495113511
+TEL;TYPE=home,voice;VALUE=uri:tel:0032495113511
+ADR;TYPE=WORK;PREF=1;LABEL="36 rue de Mulhouse\n4020, Liège\nBelgium\n":;;
+ADR;TYPE=HOME;LABEL="69 rue Basse-Wez\n4020, Liège\nBelgium\":;;
+EMAIL:michaeljacquemart.webdev@gmail.com
+REV:2019/05/29 - 10.37am
+END:VCARD
