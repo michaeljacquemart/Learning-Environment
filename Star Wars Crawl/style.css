@@ -5,7 +5,7 @@ body {
   /* Hide elements that flow outside the viewable space */
   overflow: hidden;
   /* Black background for the screen */
-  background: #000;
+  background-image: url("background-starwars.png");
 }
 
 .star-wars {
