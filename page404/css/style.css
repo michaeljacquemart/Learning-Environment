@@ -1,15 +1,16 @@
 .container {
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
-body {
-  background-color: white;
-  overflow: hidden;
-}
+  body {
+     background-image: url("/home/becode/Images/background_error404.png");
+     background-color: white;
+     margin:0;
+   }
 
 .error404page {
   width: 400px;
@@ -22,7 +23,6 @@ body {
 
 .body404,
 .head404,
-.eyes404,
 .leftarm404,
 .rightarm404,
 .chair404,
@@ -39,7 +39,6 @@ body {
 .torso404,
 .body404,
 .head404,
-.eyes404,
 .leftarm404,
 .rightarm404,
 .chair404,
@@ -91,15 +90,6 @@ body {
   animation: headTilt 20s ease infinite;
 }
 
-.eyes404 {
-  position: absolute;
-  top: 92px;
-  left: 34px;
-  width: 73px;
-  height: 18px;
-  background-position: -162px -350px;
-  animation: blink404 10s steps(1) infinite, pan 10s ease-in-out infinite;
-}
 
 .leftarm404 {
   position: absolute;
